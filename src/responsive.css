@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .centro {
+        display: inline-block;
+        vertical-align: middle;
+        width: 300px;
+        height: 350px;
+        background: white;
+        color: hsl(227, 10%, 46%);
+        border-radius: 20px;
+    }
+
+    .stats .flp:first-child{
+        padding-top: 30px;
+       }
+}
+
+@media (max-width: 321px) {
+    .centro {
+        display: inline-block;
+        vertical-align: middle;
+        width: 250px;
+        height: 350px;
+        background: white;
+        color: hsl(227, 10%, 46%);
+        border-radius: 20px;
+    }
+
+    .cidade {
+        margin-bottom: 20px;
+    }
+
+}

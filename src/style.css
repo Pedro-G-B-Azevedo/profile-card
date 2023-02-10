@@ -1,0 +1,68 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.square{
+    width: 98%;
+    height: 0; 
+    padding-bottom: 48%; 
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+.block{
+    position: absolute;
+    text-align: center;
+    background: hsl(185, 75%, 39%);;
+    width: 100%;
+    height: 100%;
+  }
+   
+  .block:before {
+    content: '';
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    margin-right: -0.25em;
+   }
+   
+  .centro {
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    height: 400px;
+    background: white;
+    color: hsl(227, 10%, 46%);
+    border-radius: 20px;
+   }
+   
+   strong{
+    color: black;
+   }
+   
+   img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 40px;
+    margin: 20px 0px 10px 0px;
+   }
+
+   .cidade{
+    margin-bottom: 40px;
+   }
+
+   .stats{
+    border-top: gray solid 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+   }
+
+   .stats .flp{
+    flex: 1;
+   }
+
+   .stats .flp:first-child{
+    padding-top: 50px;
+   }
+   
